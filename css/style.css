@@ -1,0 +1,138 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f7f2;
+}
+/* Título y login */
+.first{
+    width: 100%;
+    display: inline-block;
+}
+
+.title{
+    float: left;
+    color: coral;
+    font-size: 27px;
+    font-style: italic;
+    margin: 5px;
+}
+
+.button{
+    float: right;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4c5b5c;
+    background-color: yellow;
+    width: 125px;
+    margin: 5px;
+    padding: 5px 10px 3px 10px;
+    text-align: center;
+    border: 3px solid #4C5B5C;
+    border-bottom-left-radius: 20px;
+}
+/* Barra de navegación */
+.list ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list li{
+    display: inline;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+}
+
+.list li a{
+    padding: 2px 7px 2px 7px;
+    color: #4C5B5C;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.list li a:hover{
+    background-color: #4e5152;
+    color: #ffffff;
+}
+/* Banner */
+.banner{
+    width: 100%;
+    height: auto;
+}
+/* Columnas */
+.columns{
+    text-align: center;
+}
+
+.columns h2{
+    color: #4C5B5C;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.columns ul{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.columns div{
+    display:inline-block;
+    text-align: center;
+}
+
+.inc{
+    float: left;
+    padding-left: 50px;
+}
+
+.connect{
+    float: right;
+    padding-right: 100px;
+}
+
+.important{
+    color: #4C5B5C;
+    font-weight: bold;
+}
+
+/* Testimoni */
+.testimoni {
+    background-image: url(/prueba2/assets/images/fons.jpg);
+    height: 220px;
+}
+
+.testimoni p{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.testimoni span{
+    color: yellow;
+    font-style: normal;
+    font-weight: 600;
+}
+/* Cookies */
+.cookies{
+    background-color: #707483;
+    color: yellow;
+    /* padding-top: 3px; */
+    padding-left: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.7;
+    display: block;
+}
+
+.cookies a{
+    color:skyblue 
+}
+
+.cookies i{
+    margin-left: 5px;
+}

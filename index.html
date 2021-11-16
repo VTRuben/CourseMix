@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="images/x-icon">
+    <!-- Fuente Roboto Regular 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Link a style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link a normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Link a fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CourseMix</title>
+</head>
+<body>
+    <header>
+        <div class="first">
+            <h1 class="title">CourseMix</h1>
+            <a class="button">Iniciar sessió</a>
+        </div>
+        <nav class="list">
+            <ul>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Comunitat</a></li>
+                <li><a href="#">Plans</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="assets/images/html5.png" alt="Banner HTML5" title="Banner HTML5" class="banner">
+        </div>
+        <div class="columns">
+            <h2>Formació de qualitat</h2>
+            <div class="inc">
+                <ul>
+                    <li class="important">CourseMix Inc.</li>
+                    <li>Nosaltres</li>
+                    <li>Lideratge</li>
+                    <li>Carreres</li>
+                    <li>Catàleg</li>
+                    <li>Certificats</li>
+                </ul>
+            </div>
+            <div class="comunity">
+                <ul>
+                    <li class="important">Comunitat</li>
+                    <li>Patrocinadors</li>
+                    <li>Mentors</li>
+                    <li>Traductors</li>
+                    <li>Desenvolupadors</li>
+                    <li>Beta testers</li>
+                </ul>
+            </div>
+            <div class="connect">
+                <ul>
+                    <li class="important">Connecta't</li>
+                    <li>Blog</li>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="testimoni">
+            <p>
+                <q>Ens encanta que la plataforma <i><u><strong>CourseMix</strong></u></i> es permiti<br> oferir una àmplia gamma de programes d'alta qualitat i una<br>  experiència d'aprenentatge en que els nostres empleats<br>  poden impulsar el seu propi desenvolupament personal.<br> 
+                </q>
+                <span>Khatman - <i>Director d'aprenentatge a Rostisseria<br>  LePollastré</i></span>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="cookies">
+            <h2>Ús de cookies</h2>
+            <p>Aquesta web utilitza "galetes" per millorar l'experiència de navegació. Si continueu navegant entenem que les accepteu. <a href="#">Més informació</a><i id="cookies" class="far fa-times-circle" onclick="cerrar()"></i></p>
+        </div>
+    </footer>
+    <script>
+        // function cerrar(){
+        //     x=document.getElementById('cookies');
+        //     if (x.style.display=="block"){
+        //         x.style.display="hidden";
+        //     }
+        // }
+        window.onload = function(){
+            document.getElementById('cookies').onclick = function(){
+                this.parentNode.parentNode.parentNode
+                .removeChild(this.parentNode.parentNode);
+                return false;
+            };
+        };
+    </script>
+</body>
+</html>
